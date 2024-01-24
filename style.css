@@ -1,0 +1,114 @@
+@font-face
+{
+    font-family:oswald;
+    src: url('oswald.ttf');
+}
+
+@font-face
+{
+    font-family:spacemono;
+    src: url('spacemono.ttf')
+}
+
+/* Colored Box */
+#first
+{
+    background-color:#8B4000;  
+    width:600px;
+    height:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* White Box */
+#second
+{
+    background-color:#ffffff;
+    width: 500px;
+    height: 900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Container Box */
+#third
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* For the Menu Bar */
+.extra-space
+{
+    word-spacing:100px;
+    
+}
+
+/* Menu Bar */
+#menu
+{
+    text-align:center;
+    text-size:70px;
+    font-family:oswald;
+    background-color:#000000;
+    color:#FFFFFF;
+}
+
+/* Heading */
+.heading
+{
+    font-family:spacemono;
+    text-size:500px;
+    text-align:center;
+}
+
+/* JWST Image */
+#jwst
+{
+    height: 200px;
+    width:450px;
+}
+
+/* The Paragraph Description */
+.description
+{
+    font-size:14px;
+    width:450px;
+    text-align:left; 
+}
+ 
+ /* First Row of Images */
+.first-line {
+      height:140px;
+      width:450px;
+      white-space: nowrap; /* Prevents images from wrapping to the next line */
+      overflow-x: auto; /* Allows horizontal scrolling if images exceed the container width */
+    }
+
+/* Images in the First Row */
+    .first-line img {
+    height:150px;
+    width:150px;
+      display: inline-block; /* Displays images in a line */
+      /* max-width: 100%; /* Ensures images don't exceed their original size */ */
+      height: auto; /* Maintains the aspect ratio of the images */
+      margin-right: 10px; /* Optional: Adds space between images */
+    }
+
+/* For the Caption of the First Row of Images*/
+ .extra-space2
+{
+    word-spacing:80px;
+} 
+
+/* For the Caption of the Second Row of Images */
+.extra-space3
+{
+    word-spacing:62px;
+}
+
+/* For the Caption of the Second Row of Images */
+.extra-space4
+{
+    word-spacing:60px;
+}
